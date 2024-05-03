@@ -19,5 +19,7 @@ public class Answer {
 
     private LocalDateTime createDate;
 
+    @ManyToOne  // 필수
+    // Many = Answer, One = Question
     private Question question;
 }
